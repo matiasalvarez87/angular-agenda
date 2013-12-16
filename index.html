@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="no-js" ng-app="app">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no">
+
+    <!-- CSS Libraries -->
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body>
+
+	<div class="container">
+		<h1>Agenda</h1>
+
+		<ul class="nav nav-tabs nav-justified">
+			<li>
+				<a ng-href="/">Home</a>
+			</li>
+			<li>
+				<a ng-href="/new">New</a>
+			</li>
+		</ul>
+
+		<br>
+
+		<div ng-view="">
+
+		</div>
+
+	</div>
+
+    <!-- JS Libraries -->
+	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+	<script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
+
+	<!-- AngularJS Components -->
+
+	<script type="text/javascript" src="app/app.js"></script>
+
+	<!-- Models -->
+	<script type="text/javascript" src="app/models/contactTypes.js"></script>
+	<script type="text/javascript" src="app/models/contact.js"></script>
+
+	<!-- Services -->
+	<script type="text/javascript" src="app/services/contact.js"></script>
+
+	<!-- Controllers -->
+	<script type="text/javascript" src="app/controllers/list.js"></script>
+	<script type="text/javascript" src="app/controllers/form.js"></script>
+
+</body>
+</html>

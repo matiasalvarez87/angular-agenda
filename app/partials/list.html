@@ -1,0 +1,15 @@
+
+<div class="list-group" ng-controller="listCtl">
+
+	<a href="#" class="list-group-item" ng-repeat="item in all()" ng-click="edit(item)">
+		<h4 class="list-group-item-heading">{{ item.getFullName() }}</h4>
+		<p class="list-group-item-text">
+			<b>Address: </b>{{ item.address }} - <b>Phone: </b>{{ item.phone }}
+		</p>
+	</a>
+
+	<div ng-show="all().length === 0">
+		There is no contacts in the Agenda
+	</div>
+
+</div>

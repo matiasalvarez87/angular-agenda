@@ -1,0 +1,16 @@
+{
+  "name": "models-in-angularjs",
+  "version": "0.0.0",
+  "authors": [
+    "matiasalvarez87 <matiasalvarez87@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.0.3",
+    "angular": "~1.2.4",
+    "angular-route": "~1.2.4",
+    "underscore": "~1.5.2"
+  }
+}
