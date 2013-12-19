@@ -1,7 +1,7 @@
 angular-agenda
 ==============
 
-##Steps to run the example
+##Steps to setup the example
 
 ```
 // Download the project
@@ -15,3 +15,6 @@ bower install
 // Run the app
 grunt
 ```
+
+##Live Example
+http://matiasalvarez87.github.io/angular-agenda/
