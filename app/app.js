@@ -7,8 +7,8 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
 	$locationProvider.html5Mode(true).hashPrefix('!');
 
 	$routeProvider.
-		when('/edit/:id', { templateUrl: 'app/partials/form.html' } ).
-		when('/new', { templateUrl: 'app/partials/form.html' } ).
-		when('/home', { templateUrl: 'app/partials/list.html' } ).
+		when('/edit/:id', { templateUrl: '/app/partials/form.html' } ).
+		when('/new', { templateUrl: '/app/partials/form.html' } ).
+		when('/home', { templateUrl: '/app/partials/list.html' } ).
 		otherwise({ redirectTo: '/home' });
 }]);
