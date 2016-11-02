@@ -1,7 +1,7 @@
 angular-agenda
 ==============
 
-##Steps to setup the example
+## (Steps to setup the example)[www.lta.com]
 
 ```
 // Download the project
